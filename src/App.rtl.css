@@ -1,6 +1,6 @@
 .App-paragraph {
-  text-align: left;
-  margin-left: 20px;
+  text-align: right;
+  margin-right: 20px;
   min-height: 50px;
   font-size: 30px;
   color: tomato;
@@ -47,6 +47,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
